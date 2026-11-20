@@ -199,6 +199,37 @@ header {
     color: #000000;
 }
 
+/* PROJECTS SECTION */
+
+.projects {
+    background-color: #E8EDE3;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.project-card {
+    background-color: #F5F3EA;
+    padding: 30px;
+    border-radius: 15px;
+    border-bottom: 5px solid #000000;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(38, 53, 43, 0.10);
+}
+
+.project-card h3 {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
 /* CONTACT SECTION */
 
 .contact {
