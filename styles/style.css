@@ -10,8 +10,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #F5F3EA;
-    color: #000000;
+    background-color: #000000;
+    color: #9659a8;
     line-height: 1.7;
 }
 
@@ -25,7 +25,7 @@ a {
 }
 
 span {
-    color: #9659a8;
+    color: #FC00A7;
 }
 
 .section {
@@ -36,7 +36,7 @@ span {
     font-size: 36px;
     text-align: center;
     margin-bottom: 45px;
-    color: #000000;
+    color: #9659a8;
 }
 
 /* NAVIGATION BAR */
@@ -46,7 +46,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #F5F3EA;
+    background-color: #000000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
@@ -76,7 +76,7 @@ header {
 }
 
 .nav-links a:hover {
-    color: #08de50;
+    color: #FC00A7;
 }
 
 /* HOME SECTION */
@@ -117,7 +117,7 @@ header {
 .home-content p {
     font-size: 15px;
     margin-bottom: 30px;
-    color: #000000;
+    color: #FC00A7;
 }
 
 .btn {
@@ -132,29 +132,29 @@ header {
 }
 
 .btn:hover {
-    background-color: #08de50;
+    background-color: #FC00A7;
     transform: translateY(-3px);
 }
 
 .home-image img {
-    width: 380px;
-    height: 390px;
+    width: 500px;
+    height: 490px;
     object-fit: cover;
     border-radius: 45% 45% 20px 20px;
-    border: 8px solid #DCE5D5;
+    border: 8px solid #FC00A7;
     box-shadow: 0 10px 30px rgba(38, 53, 43, 0.12);
 }
 
 /* ABOUT SECTION */
 
 .about {
-    background-color: #E8EDE3;
+    background-color: #000000;
 }
 
 .about-content {
     max-width: 850px;
     margin: auto;
-    background-color: #F5F3EA;
+    background-color: #9659a8;
     padding: 35px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(38, 53, 43, 0.06);
@@ -175,11 +175,11 @@ header {
 }
 
 .skill-card {
-    background-color: #E8EDE3;
+    background-color: #9659a8;
     padding: 30px 20px;
     text-align: center;
     border-radius: 15px;
-    border: 1px solid #DCE5D5;
+    border: 1px solid #FC00A7;
     transition: 0.3s;
 }
 
@@ -202,7 +202,7 @@ header {
 /* PROJECTS SECTION */
 
 .projects {
-    background-color: #E8EDE3;
+    background-color: #000000;
 }
 
 .projects-container {
@@ -212,10 +212,10 @@ header {
 }
 
 .project-card {
-    background-color: #F5F3EA;
+    background-color: #9659a8;
     padding: 30px;
     border-radius: 15px;
-    border-bottom: 5px solid #000000;
+    border-bottom: 5px solid #FC00A7;
     transition: 0.3s;
 }
 
@@ -241,8 +241,8 @@ header {
     max-width: 700px;
     margin: auto;
     padding: 35px;
-    background-color: #E8EDE3;
-    border-left: 6px solid #000000;
+    background-color: #9659a8;
+    border-left: 6px solid #FC00A7;
     border-radius: 12px;
 }
 
@@ -260,18 +260,18 @@ header {
 /* CONTACT SECTION */
 
 .contact {
-    background-color: #E8EDE3;
+    background-color: #000000;
     text-align: center;
 }
 
 .contact > p {
-    color: #59665B;
+    color: #9659a8;
     margin-bottom: 25px;
 }
 
 .contact-info {
     display: inline-block;
-    background-color: #F5F3EA;
+    background-color: #9659a8;
     padding: 25px 40px;
     border-radius: 15px;
     text-align: left;
@@ -285,8 +285,8 @@ header {
 /* FOOTER */
 
 footer {
-    background-color: #000000;
-    color: #F5F3EA;
+    background-color: #9659a8;
+    color: #000000;
     text-align: center;
     padding: 25px;
     font-size: 14px;
